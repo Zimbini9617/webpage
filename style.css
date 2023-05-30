@@ -22,7 +22,9 @@ body {
   margin: 0;
 }
 
-* header */ .header {
+/* header */
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -92,8 +94,8 @@ body {
   padding: 0;
   border-radius: 3px;
   padding-left: 3rem;
-  font-size: 1.7rem;
   font: inherit;
+  font-size: 1.7rem;
 }
 
 .input::placeholder {
