@@ -1,0 +1,134 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  color: black;
+  background-image: url("./images/background-image.png");
+  background-color: dark;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: monospace;
+  color: blue;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.link-items {
+  margin-right: 25px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* main */
+
+.main {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: blue;
+  max-width: 550px;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 2.4rem;
+  max-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+}
+
+.form {
+  margin-top: 60px;
+}
+
+.input {
+  width: 511px;
+  height: 64px;
+  border: none;
+  padding: 0;
+  border-radius: 3px;
+  padding-left: 3rem;
+  font: inherit;
+  font-size: 1.7rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid gray;
+  padding-top: 1rem;
+  color: black;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.btn {
+  border: none;
+  padding: 0;
+  background-color: red;
+  height: 64px;
+  width: 133px;
+  color: white;
+  font: inherit;
+  border-radius: 3px;
+  margin-left: 5px;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
